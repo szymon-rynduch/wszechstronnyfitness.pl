@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Wszechstronny Fitness – trening personalny, mobility, plany dietetyczne i rozwój sprawności. Popraw zdrowie, siłę, mobilność i samopoczucie.">
+
+    <!-- Open Graph -->
+    <!-- TODO: og:image musi być pełnym (absolutnym) URL-em, np. https://twojadomena.pl/assets/og-image.png -->
+    <meta property="og:title" content="WszechstronnyFitness - Twój krok do lepszej formy">
+    <meta property="og:description" content="Treningi i dieta dopasowane do Ciebie.">
+    <meta property="og:image" content="/assets/og-image.png">
+    <meta property="og:type" content="website">
+
+    <title>WszechstronnyFitness</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/card-image.png" type="image/png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Scripts -->
+    <script src="/scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html">WSZECHSTRONNY<span>.</span><span>FITNESS</span></a>
+            </div>
+
+            <!-- Navigation links -->
+            <ul class="nav-links">
+                <li><a href="#oferta">Oferta</a></li>
+                <li><a href="#opinie">Opinie</a></li>
+                <li><a href="#cennik">Cennik</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+
+            <!-- CTA -->
+            <a href="#kontakt" class="btn btn-cta" aria-label="Zapisz się na trening">Zapisz się!</a>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ============ HERO ============ -->
+        <section class="hero" id="hero">
+            <div class="hero-bg-overlay" aria-hidden="true"></div>
+
+            <div class="hero-inner">
+
+                <div class="hero-content">
+                    <p class="hero-eyebrow">Trener personalny & dietetyka</p>
+                    <h1 class="hero-title">
+                        Silne ciało. Zdrowe nawyki.
+                        <span class="highlight">Realne efekty.</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Łączę trening z wiedzą o żywieniu, żeby zdrowe wybory
+                        stały się naturalną częścią Twojego dnia.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#kontakt" class="btn btn-cta">Zapisz się!</a>
+                        <a href="#oferta" class="btn btn-ghost">Zobacz ofertę</a>
+                    </div>
+                </div>
+
+                <div class="hero-photo">
+                                        <img src="/assets/oskar-trener.jpg" alt="Trener personalny WszechstronnyFitness">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============ STATYSTYKI ============ -->
+        <section class="stats" id="statystyki" aria-label="Osiągnięcia w liczbach">
+            <div class="stats-content">
+
+                <!-- TODO: realne liczby od trenera -->
+                <div class="stat">
+                    <span class="stat-number">200<span class="stat-plus">+</span></span>
+                    <span class="stat-label">Zadowolonych klientów</span>
+                </div>
+
+                <div class="stat">
+                    <span class="stat-number">5<span class="stat-plus">+</span></span>
+                    <span class="stat-label">Lat doświadczenia</span>
+                </div>
+
+                <div class="stat">
+                    <span class="stat-number">1000<span class="stat-plus">+</span></span>
+                    <span class="stat-label">Przeprowadzonych treningów</span>
+                </div>
+
+                <div class="stat">
+                    <span class="stat-number">98<span class="stat-plus">%</span></span>
+                    <span class="stat-label">Poleca znajomym</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============ OFERTA ============ -->
+        <section class="services" id="oferta">
+            <div class="section-head">
+                <p class="section-eyebrow">Co oferuję</p>
+                <h2 class="section-title">Trzy filary <span class="highlight">Twojej formy</span></h2>
+            </div>
+
+            <div class="services-grid">
+
+                <article class="service-card">
+                    <div class="service-img">
+                        <!-- TODO: podmień src ✅-->
+                        <img src="/assets/oskardeadlift.jpg" alt="Trening mobilności i mobility">
+                    </div>
+                    <div class="service-body">
+                        <h3 class="service-name">Mobilność</h3>
+                        <p class="service-desc">
+                            Praca nad zakresem ruchu, stawami i elastycznością.
+                            Mniej bólu, lepsza technika, ciało, które słucha.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-img">
+                        <img src="/assets/oskitrening.jpg" alt="Trening personalny i siłowy">
+                    </div>
+                    <div class="service-body">
+                        <h3 class="service-name">Trening</h3>
+                        <p class="service-desc">
+                            Plan szyty pod Twój cel i poziom. Siła, kondycja
+                            i sylwetka — krok po kroku, z realną progresją.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-img">
+                        <img src="/assets/oskidieta1.jpg" alt="Plany żywieniowe i dietetyka">
+                    </div>
+                    <div class="service-body">
+                        <h3 class="service-name">Odżywianie</h3>
+                        <p class="service-desc">
+                            Żywienie dopasowane do trybu życia. Bez głodówek
+                            i restrykcji — trwałe nawyki, które zostają na dłużej.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ============ OPINIE ============ -->
+        <section class="reviews" id="opinie">
+            <div class="section-head">
+                <p class="section-eyebrow">Opinie</p>
+                <h2 class="section-title">Co mówią <span class="highlight">podopieczni</span></h2>
+            </div>
+
+            <div class="reviews-grid">
+
+                <!-- TODO: podmień na realne opinie klientów✅ -->
+                <figure class="review-card">
+                    <blockquote class="review-text">
+                        „Polecam w 100 % Oskara szczególnie Tym którzy chcą zaliczyć testy do PSP.Profesjonalista w
+                        każdym calu,
+                        różnorodność treningów odpowiedni dobór ćwiczeń i szybki progres . Właściwy człowiek na
+                        właściwym miejscu🙂"
+                    </blockquote>
+                    <figcaption class="review-author">
+                        <span class="review-name">Michał S.</span>
+                        <span class="review-role">Klient indywidualny</span>
+                    </figcaption>
+                </figure>
+
+                <figure class="review-card">
+                    <blockquote class="review-text">
+                        „Serdecznie polecam Oskara! Plan idealnie dopasowany do mojego stylu życia, wszystko jasno
+                        wytłumaczone i mega potrafi zmotywować. Bardzo jestem zadowolona z efektów pracy,"
+                    </blockquote>
+                    <figcaption class="review-author">
+                        <span class="review-name">Wiktoria K</span>
+                        <span class="review-role">Plan treningowy + dieta</span>
+                    </figcaption>
+                </figure>
+
+                <figure class="review-card">
+                    <blockquote class="review-text">
+                        „Polecam treningi z Oskarem. Świetny trener z ogromną wiedzą i profesjonalnym podejściem.
+                        Treningi są skuteczne, motywujące i dopasowane do indywidualnych potrzeb. Atmosfera super,
+                        efekty widać bardzo szybko."
+                    </blockquote>
+                    <figcaption class="review-author">
+                        <span class="review-name">Ewa Z.</span>
+                        <span class="review-role">Trening personalny</span>
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <!-- ============ FAQ ============ -->
+        <section class="faq" id="faq">
+            <div class="section-head">
+                <p class="section-eyebrow">Pytania</p>
+                <h2 class="section-title">Najczęstsze <span class="highlight">wątpliwości</span></h2>
+            </div>
+
+            <div class="faq-list">
+
+                <!-- TODO: dopasuj pytania i odpowiedzi do realnej oferty -->
+                <details class="faq-item">
+                    <summary class="faq-question">Czy treningi są dla początkujących?</summary>
+                    <p class="faq-answer">
+                        Tak. Plan dopasowuję do Twojego poziomu — niezależnie od tego,
+                        czy zaczynasz od zera, czy wracasz po przerwie.
+                    </p>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">Gdzie odbywają się treningi?</summary>
+                    <p class="faq-answer">
+                        Stacjonarnie na siłowni oraz w formie online — w zależności
+                        od Twoich preferencji i celów.
+                    </p>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">Czy dieta jest w cenie treningu?</summary>
+                    <p class="faq-answer">
+                        Plan żywieniowy to osobny pakiet, ale można go połączyć
+                        z treningiem w jednej, korzystniejszej współpracy.
+                    </p>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">Jak szybko zobaczę efekty?</summary>
+                    <p class="faq-answer">
+                        Pierwsze zmiany w samopoczuciu i sile zwykle po 3–4 tygodniach.
+                        Trwałe efekty to kwestia konsekwencji — i w tym Cię wspieram.
+                    </p>
+                </details>
+
+            </div>
+        </section>
+
+        <!-- ============ CENNIK ============ -->
+<section class="pricing" id="cennik">
+    <div class="section-head">
+        <p class="section-eyebrow">Cennik</p>
+        <h2 class="section-title">Wybierz formę <span class="highlight">współpracy</span></h2>
+    </div>
+
+    <div class="pricing-grid">
+
+        <!-- Konsultacja -->
+        <article class="pricing-card">
+            <span class="pricing-tag">Start</span>
+
+            <h3 class="pricing-name">Konsultacja</h3>
+
+            <div class="pricing-price">
+                200 <span>zł</span>
+            </div>
+
+            <ul class="pricing-features">
+                <li>Analiza celów</li>
+                <li>Ocena aktualnej formy</li>
+                <li>Plan działania</li>
+                <li>Indywidualne wskazówki</li>
+            </ul>
+
+            <a href="#kontakt" class="btn btn-ghost">Umów konsultację</a>
+        </article>
+
+        <!-- Współpraca -->
+        <article class="pricing-card">
+            <span class="pricing-tag">Najczęściej wybierane</span>
+
+            <h3 class="pricing-name">Współpraca podstawowa</h3>
+
+            <div class="pricing-price">
+                499 <span>zł / mies.</span>
+            </div>
+
+            <ul class="pricing-features">
+                <li>Plan treningowy</li>
+                <li>Regularne aktualizacje</li>
+                <li>Stały kontakt</li>
+                <li>Monitorowanie postępów</li>
+            </ul>
+
+            <a href="#kontakt" class="btn btn-cta">Rozpocznij współpracę</a>
+        </article>
+
+        <!-- Premium -->
+        <article class="pricing-card pricing-card-premium">
+            <span class="pricing-tag premium-tag">Premium</span>
+
+            <h3 class="pricing-name">Pakiet Premium</h3>
+
+            <div class="pricing-price">
+                799 <span>zł / mies.</span>
+            </div>
+
+            <ul class="pricing-features">
+                <li>Plan treningowy</li>
+                <li>Plan żywieniowy</li>
+                <li>Stały kontakt 1:1</li>
+                <li>Pełna opieka i monitoring</li>
+                <li>Priorytetowe wsparcie</li>
+            </ul>
+
+            <a href="#kontakt" class="btn btn-cta">Wybieram Premium</a>
+        </article>
+
+    </div>
+</section>
+        <!-- ============ KONTAKT ============ -->
+        <section class="contact" id="kontakt">
+            <div class="section-head">
+                <p class="section-eyebrow">Kontakt</p>
+                <h2 class="section-title">Zacznijmy <span class="highlight">współpracę</span></h2>
+            </div>
+
+            <div class="contact-inner">
+
+                <!-- Lewa kolumna: dane + social -->
+                <div class="contact-info">
+                    <p class="contact-lead">
+                        Masz pytania albo chcesz umówić pierwszy trening?
+                        Napisz lub zadzwoń — odpowiadam najszybciej jak mogę.
+                    </p>
+
+                    <ul class="contact-list">
+                        <li><a href="tel:+48000000000">+48 730 153 617</a></li>
+                        <li><a href="mailto:kontakt@wszechstronnyfitness.pl">wszechstronny@fitness.pl</a></li>
+                        <li><a href="https://www.instagram.com/oskar.glogowski/" target="_blank" rel="noopener">@wszechstronnyfitness</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Prawa kolumna: formularz -->
+                <!-- TODO: aby formularz wysyłał maile, podmień action na własny endpoint Formspree
+                     (https://formspree.io) lub podłącz inny backend. Bez tego formularz nic nie wyśle. -->
+                <form class="contact-form" action="https://formspree.io/f/TWOJ_ID" method="POST">
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Imię" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                    </div>
+                    <textarea name="message" rows="5" placeholder="Wiadomość" required></textarea>
+                    <button type="submit" class="btn btn-cta">Wyślij wiadomość</button>
+                </form>
+
+            </div>
+
+            <!-- Mapa -->
+            <div class="contact-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10264.663895552581!2d20.431499591403277!3d49.97074589337442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47163b31f630ccad%3A0xc2f1dec474659d5e!2sFitness%20%26%20Body%20Si%C5%82ownia!5e0!3m2!1sen!2spl!4v1782331774082!5m2!1sen!2sp"
+                    width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" title="Lokalizacja na mapie">
+                </iframe>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ============ STOPKA ============ -->
+    <footer class="footer">
+        <div class="footer-inner">
+
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo">WSZECHSTRONNY<span>.</span>FITNESS</a>
+                <p class="footer-tagline">Łączę trening, dietetykę i zdrowe nawyki, pomagając osiągać trwałe efekty i lepsze samopoczucie każdego dnia.</p>
+            </div>
+
+            <nav class="footer-nav" aria-label="Stopka">
+                <a href="#oferta">Oferta</a>
+                <a href="#opinie">Opinie</a>
+                <a href="#faq">FAQ</a>
+                <a href="#cennik">Cennik</a>
+                <a href="#kontakt">Kontakt</a>
+            </nav>
+
+            <div class="footer-social">
+                <a href="https://www.instagram.com/oskar.glogowski/" target="_blank" rel="noopener"
+                    aria-label="Instagram">Instagram</a>
+                <a href="https://www.facebook.com/p/WszechstronnyFitness-61555173583643/" target="_blank" rel="noopener"
+                    aria-label="Facebook">Facebook</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 WszechstronnyFitness. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
